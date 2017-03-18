@@ -1,0 +1,280 @@
+@font-face{
+    font-family: 'Sophia';
+    src: url('../font/Sophia.ttf')
+}
+#header{
+    border: 4px solid transparent;
+    border-image-source: url(../border2.png);
+    border-image-repeat: round;
+    border-image-slice: 30;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+#header .columns{
+    background-color: #F2C73C;
+    margin-top: -60px;
+}
+#header ol > li{
+    display: inline-block;
+    width: 13%;
+    font-family: "Impact";
+    font-size: 25px;
+}
+#header ol {
+    margin-bottom: 0px;
+}
+
+#header img{
+    position: relative;
+    top: 65px;
+}
+#header a{
+    color:  #354e67;
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: white;
+    background: #D6A210;
+}
+
+#header .logo a:hover{
+    color: transparent;
+    background: transparent;
+}
+/*home*/
+#slideshow img {
+    width: 100%;
+}
+
+#slideshow {
+    top: -50px;
+    box-shadow: 10px 10px 20px 5px #000;
+    border: 5px #D6A210 solid;
+}
+
+#slideshow .flex-viewport {
+    height: 310px;
+    margin-bottom: -10px;
+}
+
+.flex-direction-nav a{
+    height: 93px !important;
+}
+
+a.flex-prev {
+    width: 56px !important;
+}
+
+.flex-control-nav {
+    bottom: -80px;
+}
+
+#home {
+    background-color: #D6A210;
+    font-family: 'Sophia';
+    color: white;
+    font-size: 68px;
+    margin-bottom: 0px;
+    text-shadow: 5px 4px 2px grey;
+}
+#home .left{
+    float: left;
+}
+#home .right{
+    float: right;
+    margin-top: -201px;
+}
+
+#home .text{
+    margin: 0px 128px;
+    z-index: 0;
+    margin-top: 20px;
+}
+
+#home font{
+    font-size: 150px;
+    position: relative;
+    top: 77px;
+}
+/*about US */
+#about .book{
+    float:right;
+    height: 0px;
+    position: relative;
+    top: -59px;
+}
+#about {
+    background-color: #7c8e98;
+    border: 4px solid transparent;
+    border-image-source: url(../border3.png);
+    border-image-repeat: round;
+    border-image-slice: 30;
+    font-family: "Tw Cen MT";
+    font-size: 24px;
+}
+
+#about font{
+    font-family: "sophia";
+    font-size: 100px;
+    color: #003333;
+    -webkit-text-stroke: 1px white;
+}
+
+/*galery */
+
+#galery {
+    background: #ffcc33;
+    padding: 30px 50px;
+    border: 4px solid transparent;
+    border-image-source: url(../border3.png);
+    border-image-repeat: round;
+    border-image-slice: 30;
+    font-family: "sophia";
+    color: #003333;
+    font-size: 100px;
+    -webkit-text-stroke: 2px #ffff66;
+}
+
+#galery font{
+    font-size: 200px;
+    position : relative;
+    top: 110px;
+    -webkit-text-stroke: 1px #ffff66;
+}
+
+#galery .text{
+    margin-top: -55px;
+    margin-bottom: -15px;
+}
+#galery .row{
+    position: relative;
+    top: -80px;
+}
+#galery .image1 img {
+    height: 280px;
+    width: 100%;
+    box-shadow: 0 0 10px 17px #ffff66;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#galery .image3 img {
+    /*height: 280px;*/
+    width: 100%;
+    box-shadow: 0 0 10px 17px #ffff66;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#galery .image2 img {
+    /*height: 280px;*/
+    width: 100%;
+    box-shadow: 0 0 10px 17px #ffff66;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#galery .image4 img {
+    float: right;
+    /*height: 280px;*/
+    width: 75%;
+    box-shadow: 0 0 10px 17px #ffff66;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+#galery .image5 img {
+    /*height: 280px;*/
+    width: 75%;
+    box-shadow: 0 0 10px 17px #ffff66;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+/*Department*/
+
+#Department {
+    background: url("../icon/bgdepartment.png") #999999 ;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 45px;
+    font-family: "Tw Cen MT";
+    font-size: 45px;
+
+}
+
+#Department h1{
+    font-family: "Sophia";
+    color: #003333;
+    -webkit-text-stroke: 1px white;
+    font-size: 150px;
+}
+#Department .right{
+    text-align: right;
+    word-wrap: break-word;
+}
+#Department .left{
+    padding-left: 23px;
+}
+#Department .row {
+    margin: 0px 50px 15px 50px;
+}
+
+/*Information*/
+
+#Information {
+    background: #ffcc33;
+    border: 4px solid transparent;
+    border-image-source: url(../border3.png);
+    border-image-repeat: round;
+    border-image-slice: 30;
+}
+
+#Information p{
+    font-family: "Sophia";
+    font-size: 100px;
+    color: #003333;
+    -webkit-text-stroke: 2px #ffff99;
+}
+
+#Information font {
+    font-size: 150px;
+    position: relative;
+    top: 80px;
+    -webkit-text-stroke: 1px;
+    text-shadow: 5px 5px 15px grey;
+}
+
+#Information .text{
+    font-family: "Sylfaen";
+}
+
+#Information h2 {
+    text-decoration: underline;
+}
+
+/*contact*/
+
+#contact {
+    background: #999999;
+}
+
+#contact h1{
+    font-family: "Sophia";
+    color: #003366;
+    -webkit-text-stroke: 2px white;
+    font-size: 100px
+}
+
+#contact .four{
+    text-align: right;
+}
+
+#contact .eight{
+    font-family: "Futura Md BT";
+    font-size: 30px;
+}
+.conten{
+    height: 100px;
+    background: #333366;
+}
