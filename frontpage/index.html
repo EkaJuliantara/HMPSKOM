@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>HMPSKOM</title>
+  <title>HMPSKom</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -15,7 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!--<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">-->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -35,21 +36,19 @@
 <section id=header>
     <div class="row">
       <div class="twelve columns">
-          <center>
+         <div class="hamburger"><span><span class="openbtn" onclick="openNav()">&#9776;</span><span class="closebtn" onclick="closeNav()" >X</span></span> <a href="#"><img class="logo2" src="icon/logo.png"></a></div>
+          <nav class="menu"><center>
               <ol>
-              <li><a href="#home">HOME</a></li>
-              <li><a href="#about">ABOUT</a></li>
-              <li><a href="#galery">GALERY</a></li>
-              <li>
-                <div class="logo">
-                  <a href="#home"><img src="icon/logo.png"></a>
-                </div>
-              </li>
-              <li><a href="#Department">DEPARTMENT</a></li>
-              <li><a href="#Information">INFORMATION</a></li>
-              <li><a href="#contact">CONTACT</a></li>
+              <li><a onclick="closeNav()"href="#home">HOME</a></li>
+              <li><a onclick="closeNav()"href="#about">ABOUT</a></li>
+              <li><a onclick="closeNav()"href="#galery">GALERY</a></li>
+              <li><div class="logo hide">
+            <img src="icon/logo.png"></div></li>
+              <li><a onclick="closeNav()"href="#Department">DEPARTMENT</a></li>
+              <li><a onclick="closeNav()"href="#Information">INFORMATION</a></li>
+              <li><a onclick="closeNav()" href="#contact">CONTACT</a></li>
           </ol>
-      </center>
+      </center></nav>
       </div>
   </div>
   </section>
@@ -58,25 +57,21 @@
           <div class="row">
               <div class="twelve columns">
                   <div class="container">
-                    <div class="row text">
-                        <div class="left">
-                          <p>
-                            <font>**</font>We Are 
-                          </p>
-                        </div>
-                        <div class="right">
-                          <p>
-                            HMPSKom !<font>**</font>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
+                      <div class="row text">
+                          <div class="left">
+                  <p><font>**</font>We Are </p></div></div>
+                  <div class="row text">
+                      <div class="right">
+              <p>HMPSKom !<font>**</font></p></div></div></div>
                     <div id="slideshow" class="flexslider">
-                      <ul class="slides">
-                        <li><img src="foto/1.png"></li>
-                        <li><img src="foto/1.png"></li>
-                      </ul>
-                    </div>
+                            <ul class="slides">
+                                <li><img src="foto/1.png"></li>
+                                <li><img src="foto/1.png"></li>
+                                <!--<li><img src="foto/3.jpg"></li>
+                                <li><img src="foto/4.jpg"></li>
+                                <li><img src="foto/5.jpg"></li>-->
+                            </ul>
+                     </div>
                 </div>
             </div>
         </div>
@@ -260,6 +255,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="js/menu.js"></script>
   <script src="bower_components/flexslider/jquery.flexslider-min.js"></script>
   <script>
  $(function() {
@@ -268,13 +264,5 @@
      });
  });
  </script>
- <script>
- $('a[href^="#"]').on('click', function (e) {
- e.preventDefault();
-    var target = this.hash,
-    $target = $(target);
-       var scrollAmount = $target.offset().top;
- $("html, body").animate({ scrollTop: scrollAmount }, "slow");
-});</script>
 </body>
 </html>

@@ -1,0 +1,165 @@
+@media screen and (max-width: 780px)
+{
+    #header ol > li{
+        display: block;
+        width: auto;
+    }
+    .hamburger{
+        display:inherit;
+    }
+    .openbtn{
+        font-size: 32px;
+        padding-left: 30px;
+    }
+    .closebtn{
+        font-size: 32px;
+        padding-left: 30px;
+        padding-right: 8px;
+    }
+    .menu{
+        font-size:0.8em;
+        background: #D6A210;
+        }
+    .hide{
+        display: none;
+    }
+    /*home*/
+    #home .text{
+        margin: 0px;
+    }
+    /*about*/
+    #about img{
+        width: 190px;
+    }
+
+    /*Department*/
+
+    #Department .six.columns{
+        width:100%;
+    }
+    /*contact*/
+
+    #contact h1{
+        font-size: 80px
+    }
+
+    #contact .eight{
+        font-size: 15px;
+    }
+
+    #contact img{
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 584px)
+{
+    #header .menu {
+        padding-top: 50px;
+    }
+
+    #about .book {
+        height: 53px;
+    }
+
+    #about font {
+        font-size: 72px;
+    }
+
+    .six.columns {
+        width: 100%;
+    }
+
+    .three.columns {
+        width: 100%;
+    }
+
+    .four.columns {
+        width: 100%;
+    }
+
+    .columns{
+        margin-left: 0px;
+    }
+
+    #galery .image4 img {
+        width: 100%;
+    }
+    #galery .image5 img {
+        width: 100%;
+        margin-top: 98px;
+    }
+    #galery .font {
+        font-size: 152px;
+        top: 87px;
+    }
+
+    #galery{
+        font-size: 70px;
+        -webkit-text-stroke: 1px #ffff66;
+
+    }
+    #galery .image1 img{
+        height: auto;
+    }
+    #galery .image2 img{
+        height: auto;
+    }
+    #galery .image3 img{
+        height: auto;
+    }
+    #galery .image4 img{
+        height: auto;
+    }
+    #galery .image5 img{
+        height: auto;
+    }
+
+
+    #Department .two.columns{
+        width: 20.333%;
+    }
+
+    #Department .ten.columns{
+        width: 75.6666%;
+        font-size: 30px;
+    }
+
+    #Department img {
+        width: 84px;
+    }
+
+    #Department h1{
+        font-size: 100px;
+    }
+
+    #contact .eight.columns{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 410px)
+{
+    #galery {
+        padding: 30px 28px;
+    }
+    #galery .row{
+        top: -15px;
+    }
+
+    #galery font{
+        font-size: 95px;
+        top: 48px;
+    }
+    #Department h1{
+        font-size: 65px;
+    }
+
+    #Department img{
+        width: 55px;
+    }
+    #Department .ten.columns {
+        font-size: 21px;
+    }
+}

@@ -7,13 +7,10 @@
     border-image-source: url(../border2.png);
     border-image-repeat: round;
     border-image-slice: 30;
-    z-index: 1;
-    position: fixed;
-    width: 100%;
 }
 #header .columns{
     background-color: #F2C73C;
-    margin-top: -60px;
+    margin-top: -44px;
 }
 #header ol > li{
     display: inline-block;
@@ -38,25 +35,18 @@
     color: white;
     background: #D6A210;
 }
-
-#header .logo a:hover{
-    color: transparent;
-    background: transparent;
+.hamburger{
+    display:none;
 }
 /*home*/
 #slideshow img {
     width: 100%;
+    height: 330px;
 }
 
 #slideshow {
-    top: -50px;
-    box-shadow: 10px 10px 20px 5px #000;
-    border: 5px #D6A210 solid;
-}
-
-#slideshow .flex-viewport {
-    height: 310px;
-    margin-bottom: -10px;
+    box-shadow: 7px 6px 15px black;
+    margin-bottom: 92px;
 }
 
 .flex-direction-nav a{
@@ -71,6 +61,9 @@ a.flex-prev {
     bottom: -80px;
 }
 
+.flex-viewport{
+    border: 4px solid #D6A210;
+}
 #home {
     background-color: #D6A210;
     font-family: 'Sophia';
@@ -89,8 +82,6 @@ a.flex-prev {
 
 #home .text{
     margin: 0px 128px;
-    z-index: 0;
-    margin-top: 20px;
 }
 
 #home font{
@@ -120,6 +111,10 @@ a.flex-prev {
     font-size: 100px;
     color: #003333;
     -webkit-text-stroke: 1px white;
+}
+
+#about ol{
+    text-align: justify;
 }
 
 /*galery */
@@ -161,7 +156,7 @@ a.flex-prev {
 }
 
 #galery .image3 img {
-    /*height: 280px;*/
+    height: 280px;
     width: 100%;
     box-shadow: 0 0 10px 17px #ffff66;
     border-radius: 8px;
@@ -169,7 +164,7 @@ a.flex-prev {
 }
 
 #galery .image2 img {
-    /*height: 280px;*/
+    height: 350px;
     width: 100%;
     box-shadow: 0 0 10px 17px #ffff66;
     border-radius: 8px;
@@ -178,14 +173,14 @@ a.flex-prev {
 
 #galery .image4 img {
     float: right;
-    /*height: 280px;*/
+    height: 280px;
     width: 75%;
     box-shadow: 0 0 10px 17px #ffff66;
     border-radius: 8px;
     margin-top: 15px;
 }
 #galery .image5 img {
-    /*height: 280px;*/
+    height: 280px;
     width: 75%;
     box-shadow: 0 0 10px 17px #ffff66;
     border-radius: 8px;
@@ -267,7 +262,7 @@ a.flex-prev {
 }
 
 #contact .four{
-    text-align: right;
+    text-align: center;;
 }
 
 #contact .eight{
