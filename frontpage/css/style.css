@@ -65,27 +65,16 @@ a.flex-prev {
     border: 4px solid #D6A210;
 }
 #home {
-    background-color: #D6A210;
-    font-family: 'Sophia';
+    background-color: #333366;
+    font-family: 'Tekton Pro';
     color: white;
     font-size: 68px;
     margin-bottom: 0px;
     text-shadow: 5px 4px 2px grey;
 }
-#home .left{
-    float: left;
-}
-#home .right{
-    float: right;
-    margin-top: -201px;
-}
-
-#home .text{
-    margin: 0px 128px;
-}
-
 #home font{
     font-size: 150px;
+    font-family: 'Sophia';
     position: relative;
     top: 77px;
 }
@@ -98,7 +87,7 @@ a.flex-prev {
 }
 #about {
     background-color: #7c8e98;
-    border: 4px solid transparent;
+    border: 4px solid #cc9966;
     border-image-source: url(../border3.png);
     border-image-repeat: round;
     border-image-slice: 30;
@@ -107,10 +96,11 @@ a.flex-prev {
 }
 
 #about font{
-    font-family: "sophia";
-    font-size: 100px;
+    font-family: "Tekton Pro";
+    font-size: 80px;
     color: #003333;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 2px white;
+    text-shadow: 5px 3px 7px black;
 }
 
 #about ol{
@@ -126,14 +116,16 @@ a.flex-prev {
     border-image-source: url(../border3.png);
     border-image-repeat: round;
     border-image-slice: 30;
-    font-family: "sophia";
+    font-family: "Tekton Pro";
+    text-shadow: 5px 4px 12px black;
     color: #003333;
-    font-size: 100px;
+    font-size: 80px;
     -webkit-text-stroke: 2px #ffff66;
 }
 
 #galery font{
     font-size: 200px;
+    font-family: "sophia";
     position : relative;
     top: 110px;
     -webkit-text-stroke: 1px #ffff66;
@@ -199,10 +191,12 @@ a.flex-prev {
 }
 
 #Department h1{
-    font-family: "Sophia";
+    font-family: "Tekton Pro";
     color: #003333;
-    -webkit-text-stroke: 1px white;
-    font-size: 150px;
+    -webkit-text-stroke: 2px white;
+    text-shadow: 5px 4px 12px black;
+    font-size: 80px;
+    padding-top: 65px;
 }
 #Department .right{
     text-align: right;
@@ -226,13 +220,15 @@ a.flex-prev {
 }
 
 #Information p{
-    font-family: "Sophia";
-    font-size: 100px;
+    font-family: "Tekton Pro";
+    text-shadow: 5px 4px 12px black;
+    font-size: 80px;
     color: #003333;
     -webkit-text-stroke: 2px #ffff99;
 }
 
 #Information font {
+    font-family: "Sophia";
     font-size: 150px;
     position: relative;
     top: 80px;
@@ -255,10 +251,11 @@ a.flex-prev {
 }
 
 #contact h1{
-    font-family: "Sophia";
+    font-family: "Tekton Pro";
+    text-shadow: 5px 4px 12px black;
     color: #003366;
     -webkit-text-stroke: 2px white;
-    font-size: 100px
+    font-size: 80px
 }
 
 #contact .four{
