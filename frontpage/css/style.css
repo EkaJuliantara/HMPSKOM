@@ -148,7 +148,6 @@ a.flex-prev {
 }
 
 #galery .image3 img {
-    height: 280px;
     width: 100%;
     box-shadow: 0 0 10px 17px #ffff66;
     border-radius: 8px;
@@ -156,7 +155,6 @@ a.flex-prev {
 }
 
 #galery .image2 img {
-    height: 350px;
     width: 100%;
     box-shadow: 0 0 10px 17px #ffff66;
     border-radius: 8px;
@@ -165,14 +163,12 @@ a.flex-prev {
 
 #galery .image4 img {
     float: right;
-    height: 280px;
     width: 75%;
     box-shadow: 0 0 10px 17px #ffff66;
     border-radius: 8px;
     margin-top: 15px;
 }
 #galery .image5 img {
-    height: 280px;
     width: 75%;
     box-shadow: 0 0 10px 17px #ffff66;
     border-radius: 8px;
