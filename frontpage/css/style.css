@@ -205,6 +205,15 @@ a.flex-prev {
     margin: 0px 50px 15px 50px;
 }
 
+#Department a{
+    color:  #354e67;
+    text-decoration: none;
+}
+
+#Department a:hover{
+    color: white;
+    background: #D6A210;
+}
 /*Information*/
 
 #Information {
