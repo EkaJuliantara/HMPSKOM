@@ -29,6 +29,7 @@
 #header a{
     color:  #354e67;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 #header a:hover{
@@ -208,6 +209,8 @@ a.flex-prev {
 #Department a{
     color:  #354e67;
     text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 #Department a:hover{
@@ -270,6 +273,16 @@ a.flex-prev {
 #contact .eight{
     font-family: "Futura Md BT";
     font-size: 30px;
+}
+
+#contact a{
+    color:  #354e67;
+    text-decoration: none;
+}
+
+#contact a:hover{
+    color: white;
+    background: #D6A210;
 }
 .conten{
     height: 100px;
